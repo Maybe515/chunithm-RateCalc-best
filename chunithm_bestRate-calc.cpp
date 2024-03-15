@@ -1,7 +1,7 @@
 //#include "stdafx.h"
 #include<stdio.h>
 #include<math.h>
-//¬”‘æNˆÊØ‚èÌ‚Ä
+//å°æ•°ç¬¬Nä½åˆ‡ã‚Šæ¨ã¦
 double floor2(double dIn, int nLen)
 {
     double dOut;
@@ -17,20 +17,20 @@ int main(void){
 	double c,rc,rv;
 	char re,rst;
 	
-	printf("ƒ`ƒ…ƒEƒjƒYƒ€ vŒ£’lŒvZ\n");
+	printf("ãƒãƒ¥ã‚¦ãƒ‹ã‚ºãƒ  è²¢çŒ®å€¤è¨ˆç®—\n");
 	
-	do{ //Ä“ü—Í‚Ìˆ—
+	do{ //å†å…¥åŠ›ã®å‡¦ç†
 	
-	do{ //—˜_’l‚Ìˆ—
-	printf("ƒXƒRƒA:");
+	do{ //ç†è«–å€¤ã®å‡¦ç†
+	printf("ã‚¹ã‚³ã‚¢:");
 	scanf("%d",&s);
-	if(1010000>=s) break;	//—˜_’lˆÈ‰º‚Ìê‡ do•¶‚ğ‰ñ”ğ
-	else if(1010000<s)	//—˜_’l‚ğ’´‚¦‚½‚Ìˆ—
-		printf("‚à‚¤ˆê“x“ü—Í‚µ‚Ä‚­‚¾‚³‚¢@EnterƒL[‚Å‘±s\n");
+	if(1010000>=s) break;	//ç†è«–å€¤ä»¥ä¸‹ã®å ´åˆ doæ–‡ã‚’å›é¿
+	else if(1010000<s)	//ç†è«–å€¤ã‚’è¶…ãˆãŸæ™‚ã®å‡¦ç†
+		printf("ã‚‚ã†ä¸€åº¦å…¥åŠ›ã—ã¦ãã ã•ã„ã€€Enterã‚­ãƒ¼ã§ç¶šè¡Œ\n");
 		scanf("%c",&rst);
-	}	while(getchar()=='\n');	//‰üs‚ÅƒXƒRƒA‚Ì‚İ‚ÌÄ“ü—Í‚ğÀs
+	}	while(getchar()=='\n');	//æ”¹è¡Œã§ã‚¹ã‚³ã‚¢ã®ã¿ã®å†å…¥åŠ›ã‚’å®Ÿè¡Œ
 	
-	printf("•ˆ–Ê’è”:");
+	printf("è­œé¢å®šæ•°:");
 	scanf("%lf",&c);
 		
 		rc = 0;
@@ -90,12 +90,12 @@ int main(void){
 	rv = floor2(rv,2);
     if(rv < 0){ rv = 0;
     }
-	printf("ã¸•ª: %.2f + %f\n",c,rc);
-	printf("vŒ£’l‚Íu%.2fv‚Å‚·\n\n",rv);
-	printf("Ä“ü—Í‚·‚éê‡‚Íy1z‚ğ“ü—Í:");	
+	printf("ä¸Šæ˜‡åˆ†: %.2f + %f\n",c,rc);
+	printf("è²¢çŒ®å€¤ã¯ã€Œ%.2fã€ã§ã™\n\n",rv);
+	printf("å†å…¥åŠ›ã™ã‚‹å ´åˆã¯ã€1ã€‘ã‚’å…¥åŠ›:");	
 	scanf("%d",&re);
 	printf("\n");
-	} while(re==1);	//1‚Å‘S‘ÌƒvƒƒOƒ‰ƒ€‚ÌÄ“ü—Í‚ğÀs
+	} while(re==1);	//1ã§å…¨ä½“ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã®å†å…¥åŠ›ã‚’å®Ÿè¡Œ
 	
 	printf("Finished");
 	return(0);
